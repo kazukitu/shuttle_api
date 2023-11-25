@@ -262,7 +262,7 @@ app.get('/api/shops', (req, res) => {
 
 });
 
-// 定义一个简单的路由，返回 JSON 数据
+
 app.get('/api/data', (req, res) => {
   const data = {
     message: 'Hello, world!',
@@ -271,7 +271,7 @@ app.get('/api/data', (req, res) => {
   res.json(data);
 });
 
-// 启动 Express 服务器
+
 app.listen(port, () => {
   console.log(`Server is running on port ${port}`);
 });
